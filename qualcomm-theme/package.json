@@ -1,34 +1,39 @@
-﻿{
-    "name":  "qualcomm-theme-2026",
-    "displayName":  "Qualcomm Dark",
-    "description":  "A VS Code color theme inspired by Qualcomm corporate color scheme.",
-    "version":  "1.0.3",
-    "publisher":  "sourstar",
-    "repository":  "https://github.com/sourstar/qualcomm-theme-vscode",
-    "engines":  {
-                    "vscode":  "^1.60.0"
-                },
-    "categories":  [
-                       "Themes"
-                   ],
-    "keywords":  [
-                     "qualcomm",
-                     "blue",
-                     "theme",
-                     "dark"
-                 ],
-    "contributes":  {
-                        "themes":  [
-                                       {
-                                           "label":  "Qualcomm Dark",
-                                           "uiTheme":  "vs-dark",
-                                           "path":  "./themes/qualcomm-dark-theme.json"
-                                       },
-                                       {
-                                           "label":  "Qualcomm Dark Dimmed",
-                                           "uiTheme":  "vs-dark",
-                                           "path":  "./themes/qualcomm-dimmed-theme.json"
-                                       }
-                                   ]
-                    }
+{
+    "name": "qualcomm-theme",
+    "displayName": "Qualcomm Theme",
+    "description": "A VS Code color theme inspired by Qualcomm corporate color scheme.",
+    "version": "1.0.3",
+    "publisher": "sourstar",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sourstar/qualcomm-theme-vscode.git"
+    },
+    "icon": "qualcomm.png",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "qualcomm",
+        "blue",
+        "theme",
+        "dark"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Qualcomm Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/qualcomm-dark-theme.json"
+            },
+            {
+                "label": "Qualcomm Dark Dimmed",
+                "uiTheme": "vs-dark",
+                "path": "./themes/qualcomm-dimmed-theme.json"
+            }
+        ]
+    }
 }

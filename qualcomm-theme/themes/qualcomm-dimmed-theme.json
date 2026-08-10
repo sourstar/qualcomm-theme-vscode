@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "Qualcomm Dark Dimmed",
   "type": "dark",
   "colors": {
