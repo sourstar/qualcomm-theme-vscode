@@ -1,8 +1,8 @@
 {
-    "name": "qualcomm-theme",
+    "name": "qualcomm-theme-2026",
     "displayName": "Qualcomm Theme",
     "description": "A VS Code color theme inspired by Qualcomm corporate color scheme.",
-    "version": "1.0.3",
+    "version": "1.1.1",
     "publisher": "sourstar",
     "license": "MIT",
     "repository": {
